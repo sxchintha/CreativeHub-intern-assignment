@@ -1,0 +1,44 @@
+.heading {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+
+.heading {
+    /* margin-top: 100px;
+    margin-bottom: 150px; */
+}
+.headline {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 10px 0;
+    /* background-color: red; */
+}
+
+.headingImg {
+    height: 50px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.headingImg img {
+    height: 60px;
+}
+
+.headingBody {
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #808080;
+}
+
+.headingBtn{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

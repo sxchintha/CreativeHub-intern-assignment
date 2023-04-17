@@ -1,0 +1,33 @@
+@keyframes scroll {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: -140%;
+    }
+}
+
+.slider {
+    width: 100%;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+}
+
+.animate {
+    width: 200%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    animation: scroll 15s linear infinite;
+}
+
+.slide {
+    /* height: 120px; */
+    width: 10%;
+    border-left: 1px solid #7a7a7a;
+    border-right: 1px solid #7a7a7a;
+    object-fit: contain;
+}

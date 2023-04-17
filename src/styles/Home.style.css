@@ -1,0 +1,20 @@
+.homeBody {
+    display: flex;
+    justify-content: center;
+}
+
+.bodyContainer {
+    width: 72%;
+}
+
+.homeHeadline {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.homeSlider {
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+.homeIntegratedTools {
+    margin-bottom: 150px;
+}

@@ -1,0 +1,49 @@
+.smallTile {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.largeTile {
+    flex: 1;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 50px;
+}
+
+
+.tileText {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+.tileHead {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.tileSub {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #4d4d4d;
+}
+
+.tileImage {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.tileImage img {
+    height: 200px;
+    /* height: 100%; */
+    object-fit: contain;
+}

@@ -1,0 +1,21 @@
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tiles {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    gap: 20px;
+}
+
+.tileLeft, .tileRight {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 500px;
+    gap: 20px;
+}

@@ -1,0 +1,13 @@
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    margin: 0 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+
+}
