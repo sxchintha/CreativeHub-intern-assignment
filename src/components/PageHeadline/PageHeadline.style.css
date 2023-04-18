@@ -5,15 +5,10 @@
     padding: 0 0 20px 0;
 }
 
-.heading {
-    /* margin-top: 100px;
-    margin-bottom: 150px; */
-}
 .headline {
     font-size: 48px;
     font-weight: 700;
     margin: 10px 0;
-    /* background-color: red; */
 }
 
 .headingImg {
@@ -36,9 +31,43 @@
     color: #808080;
 }
 
-.headingBtn{
+.headingBtn {
     margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width: 1400px) {
+    .heading {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .heading {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .heading {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .headline {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .headline {
+        font-size: 28px;
+    }
+    .headingImg {
+        flex-direction: column;
+        gap: 10px;
+    }
 }

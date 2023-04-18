@@ -31,3 +31,30 @@
     border-right: 1px solid #7a7a7a;
     object-fit: contain;
 }
+
+@media screen and (max-width: 992px) {
+    .slider {
+        height: 120px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .slider {
+        height: 100px;
+    }
+
+    .slide {
+        width: 20%;
+    }
+
+    @keyframes scroll {
+        0% {
+            left: 0;
+        }
+
+        100% {
+            left: -280%;
+        }
+    }
+}

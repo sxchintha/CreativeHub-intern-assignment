@@ -1,16 +1,3 @@
-.integratedTools {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 0 50px;
-}
-
-.integratedTools .title {
-    font-size: 30px;
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-
 .card {
     flex: 1;
     display: flex;
@@ -19,6 +6,7 @@
     background-color: #fff;
     padding: 30px 30px 35px 30px;
 }
+
 .smallCard {
     flex-direction: row;
     justify-content: flex-start;
@@ -34,7 +22,6 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
 }
 
 .cardHead {
@@ -62,4 +49,18 @@
     border-radius: 10px;
     /* height: 100%; */
     object-fit: contain;
+}
+
+@media screen and (max-width: 1400px) {
+    .cardImage img {
+        height: 30px;
+    }
+
+    .card {
+        padding: 20px 20px 25px 20px;
+    }
+
+    .largeCard {
+        padding-right: 50px;
+    }
 }

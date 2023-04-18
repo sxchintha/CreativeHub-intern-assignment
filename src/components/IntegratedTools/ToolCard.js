@@ -7,7 +7,7 @@ const ToolCard = ({ tool, large }) => {
             <div className="cardImage">
                 <img src={tool.image} alt={tool.title} />
             </div>
-            <div className="cardText">
+            <div className="cardText" style={{ justifyContent: large ? 'flex-end' : 'flex-start' }}>
                 <div className="cardHead">
                     {tool.title}
                 </div>

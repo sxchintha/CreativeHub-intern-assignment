@@ -1,6 +1,9 @@
 .homeBody {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
 }
 
 .bodyContainer {
@@ -11,10 +14,45 @@
     margin-top: 100px;
     margin-bottom: 150px;
 }
+
 .homeSlider {
     margin-top: 150px;
     margin-bottom: 80px;
 }
+
 .homeIntegratedTools {
     margin-bottom: 150px;
+}
+
+@media screen and (max-width: 992px) {
+    .homeHeadline {
+        margin-bottom: 100px;
+    }
+
+    .homeSlider {
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    .homeIntegratedTools {
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bodyContainer {
+        width: 85%;
+    }
+
+    .homeSlider {
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .homeSlider{
+        margin-bottom: 0;
+    }
 }

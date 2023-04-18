@@ -19,3 +19,14 @@
     height: 500px;
     gap: 20px;
 }
+
+@media screen and (max-width: 992px) {
+    .tileLeft, .tileRight {
+        height: 750px;
+    }   
+}
+@media screen and (max-width: 576px) {
+    .tileLeft, .tileRight {
+        /* height: 500px; */
+    }   
+}

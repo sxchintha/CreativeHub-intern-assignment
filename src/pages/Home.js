@@ -11,8 +11,8 @@ import IntegratedTools from "../components/IntegratedTools/IntegratedTools";
 const Home = () => {
     return (
         <div className="homeBody">
+            <NavBar />
             <div className="bodyContainer">
-                <NavBar />
                 <div className="homeHeadline">
                     <PageHeadline
                         headingL1="Transform with"

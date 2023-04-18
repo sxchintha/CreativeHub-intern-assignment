@@ -47,3 +47,17 @@
     /* height: 100%; */
     object-fit: contain;
 }
+
+@media screen and (max-width: 576px) {
+    .tileImage img {
+        height: 150px;
+    }
+
+    .tileText {
+        padding-left: 20px;
+    }
+
+    .tileHead {
+        font-size: 18px;
+    }
+}
