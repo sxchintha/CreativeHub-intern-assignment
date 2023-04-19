@@ -27,6 +27,8 @@ const NavBar = () => {
             const nav = document.getElementById("topNav");
             if (window.innerWidth > 1100) {
                 nav.style.display = "flex";
+            } else {
+                nav.style.display = "none";
             }
         });
     }, []);
